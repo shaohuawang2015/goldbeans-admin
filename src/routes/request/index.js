@@ -11,7 +11,7 @@ import {
   Button,
 } from 'antd'
 const { api } = config
-const { dashboard, users, userLogin, user, v1test, v2test } = api
+const { dashboard, users, userLogin, user, v1test, v2test, categoryQuery } = api
 
 const requestOptions = [
   {
@@ -96,6 +96,10 @@ const requestOptions = [
       cityCode: '01010101',
     },
     desc: 'cross-domain request by yahoo\'s yql',
+  },{
+    url: categoryQuery,
+    desc: 'goldbeans category test',
+    method: 'post'
   }]
 
 export default class RequestPage extends React.Component {

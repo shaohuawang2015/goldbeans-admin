@@ -1,5 +1,6 @@
-const APIV1 = '/api/v1'
-const APIV2 = '/api/v2'
+const APIV1 = '/api/v1';
+const APIV2 = '/api/v2';
+const GOLDBEANS = '/goldbeans';
 
 module.exports = {
   name: 'AntD Admin',
@@ -23,5 +24,6 @@ module.exports = {
     menus: `${APIV1}/menus`,
     v1test: `${APIV1}/test`,
     v2test: `${APIV2}/test`,
+    categoryQuery: `${GOLDBEANS}/category/query.json`
   },
 }

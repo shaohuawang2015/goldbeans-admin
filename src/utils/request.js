@@ -22,6 +22,7 @@ const fetch = (options) => {
       domin = url.match(/[a-zA-z]+:\/\/[^/]*/)[0]
       url = url.slice(domin.length)
     }
+    console.log("url:"+url);
     const match = pathToRegexp.parse(url)
     url = pathToRegexp.compile(url)(data)
     for (let item of match) {
@@ -44,6 +45,7 @@ const fetch = (options) => {
         if (error) {
           reject(error)
         }
+        console.log('result:'+ JSON.stringify(result));
         resolve({ statusText: 'OK', status: 200, data: result })
       })
     })
