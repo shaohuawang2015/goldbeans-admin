@@ -3,9 +3,9 @@ const APIV2 = '/api/v2';
 const GOLDBEANS = '/goldbeans';
 
 module.exports = {
-  name: 'AntD Admin',
+  name: '种金豆后台管理系统',
   prefix: 'antdAdmin',
-  footerText: 'Ant Design Admin  © 2017 zuiidea',
+  footerText: 'GoldBeans Admin  © 2017 limo',
   logo: '/logo.png',
   iconFontCSS: '/iconfont.css',
   iconFontJS: '/iconfont.js',
