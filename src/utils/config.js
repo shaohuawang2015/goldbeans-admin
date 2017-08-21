@@ -19,7 +19,7 @@ module.exports = {
     userInfo: `${APIV1}/userInfo`,
     users: `${APIV1}/users`,
     posts: `${APIV1}/posts`,
-    user: `${GOLDBEANS}/user/:id`,
+    user: `${GOLDBEANS}/user.json/:id`,
     dashboard: `${APIV1}/dashboard`,
     menus: `${APIV1}/menus`,
     v1test: `${APIV1}/test`,
