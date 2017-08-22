@@ -21,7 +21,7 @@ module.exports = {
     posts: `${APIV1}/posts`,
     user: `${GOLDBEANS}/admin/user.json/:id`,
     dashboard: `${APIV1}/dashboard`,
-    menus: `${APIV1}/menus`,
+    menus: `${GOLDBEANS}/menu/query.json`,
     v1test: `${APIV1}/test`,
     v2test: `${APIV2}/test`,
     categoryQuery: `${GOLDBEANS}/category/query.json`
